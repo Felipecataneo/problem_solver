@@ -43,7 +43,7 @@ def configure_gemini(api_key: str):
     """Configura o Gemini com a API key fornecida"""
     try:
         genai.configure(api_key=api_key)
-        return genai.GenerativeModel('gemini-pro')
+        return genai.GenerativeModel('gemini-2.5-flash-preview-04-17')
     except Exception as e:
         st.error(f"Erro ao configurar Gemini: {str(e)}")
         return None
