@@ -7,7 +7,7 @@ import json
 
 st.set_page_config(
 page_title=“Problem Solver AI”,
-page_icon=“🧠”,
+page_icon=“🔍”,
 layout=“wide”
 )
 
@@ -167,7 +167,7 @@ except Exception as e:
 ```
 
 def main():
-st.title(“🧠 Problem Solver AI”)
+st.title(“🔍 Problem Solver AI”)
 st.markdown(“Encontre a melhor abordagem para resolver seu problema usando métodos estruturados”)
 
 ```
