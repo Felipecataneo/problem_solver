@@ -7,7 +7,7 @@ import json
 # Configuração da página
 
 st.set_page_config(
-page_title=“Problem Solver AI”,
+page_title='Problem Solver AI',
 page_icon=“🔍”,
 layout=“wide”
 )
